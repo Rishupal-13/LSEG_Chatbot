@@ -10,22 +10,22 @@ This is a simple chatbot application designed to simulate a chat interface for s
 - **Error Handling**: The bot provides feedback for invalid selections and offers navigation options.
 
 # Setup and Installation
-Prerequisites
+**Prerequisites**
 Ensure you have Node.js and npm installed on your machine.
 
-Installation
-Clone the repository:
-git clone <repository-url>
+**Installation**
+- Clone the repository:
+ git clone <repository-url>
 
-Navigate to the project directory:
+- Navigate to the project directory:
 cd lseg-chatbot
 
-Install dependencies:
+- Install dependencies:
 npm install
 
-Start the development server:
+- Start the development server:
 npm start
 
-Open your browser and go to http://localhost:3000 to view the application.
+**Open your browser and go to http://localhost:3000 to view the application.**
 
 
