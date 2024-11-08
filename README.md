@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# LSEG Stock Exchange Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple chatbot application designed to simulate a chat interface for stock exchange information. Built with React and styled with Material-UI, the chatbot provides real-time stock data and guides users through selecting stock exchanges and stocks.
 
-## Available Scripts
+## Features
+- **Guided Navigation**: The bot guides users through the selection of stock exchanges and specific stocks.
+- **Dynamic Responses**: The bot’s responses and options dynamically update based on user selections.
+- **Stock Price Lookup**: Users can view current prices for popular stocks within a selected exchange.
+- **User-Friendly Interface**: The app resembles a chat interface with a header and sidebar.
+- **Error Handling**: The bot provides feedback for invalid selections and offers navigation options.
 
-In the project directory, you can run:
+# Setup and Installation
+Prerequisites
+Ensure you have Node.js and npm installed on your machine.
 
-### `npm start`
+Installation
+Clone the repository:
+git clone <repository-url>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Navigate to the project directory:
+cd lseg-chatbot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install dependencies:
+npm install
 
-### `npm test`
+Start the development server:
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open your browser and go to http://localhost:3000 to view the application.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
